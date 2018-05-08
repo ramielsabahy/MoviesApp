@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/list_item_movie_imageView"
+        android:background="#3498db"
+        android:layout_width="190dp"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"/>
+
+</FrameLayout>
